@@ -9,6 +9,7 @@ $(function() {
       //   .addClass('.thumbnail');
     
   
+  
  })
 //on click of thumbnail => addclass/removeclass/toggleclass
 
