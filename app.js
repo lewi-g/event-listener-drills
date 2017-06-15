@@ -3,22 +3,18 @@
 
 $(function() {
     $('.thumbnail').click(function(event) {
-      $(event.currentTarget).addClass('.hero')
-        .removeClass('.thumbnail');
-      // $('.hero').removeClass('.hero')
-      //   .addClass('.thumbnail');
-    
-  
-  
- })
-//on click of thumbnail => addclass/removeclass/toggleclass
-
-//addClass(hero) to our thumbnail && removeClass(thumbnail)
-
-//removeClass(hero) && addClass(thumbnail) from current hero
-  
+    	let newHeroImage = $(event.currentTarget).find('img').attr('src');
+    	console.log(newHeroImage);
+    	$('.hero img').attr('src', newHeroImage);
+    	 })
 })
     
+
+// on click, find attribute
+// add said attribute to .hero img 
+  
+
+
 //  $(function() {
   
 //   $("button").click(function(event) {
